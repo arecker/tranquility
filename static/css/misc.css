@@ -1,0 +1,22 @@
+.recentcomments a {
+    display:inline !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+form label:after {
+    content:"\000A";
+    white-space: pre;
+}
+
+form input {
+    margin-bottom: 10px;
+}
+
+form .errorlist {
+    color: red;
+}
+
+.scroller {
+    max-height: 440px;
+}
